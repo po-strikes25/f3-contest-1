@@ -1,0 +1,32 @@
+@import url("../landing.css");
+
+* {
+  color: white;
+}
+
+#grid-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 77vw;
+  height: 105vh;
+  padding: 30px 30px 0 30px;
+  background-color: rgb(17, 19, 21);
+}
+
+#menu-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px 20px;
+
+  padding-top: 30px;
+  width: 100%;
+  font-size: 20px;
+}
+
+#food-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

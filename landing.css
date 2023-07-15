@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+#web-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+  height: 95vh;
+}
+
+#left-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: #0c0f11;
+  width: 23vw;
+  height: 105vh;
+}
+
+#logo {
+  align-self: center;
+  line-height: 35px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+#logo-img img {
+  width: 100%;
+}
+
+#logo-title,
+#logo-slogan,
+#link-title,
+#about-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+#logo-slogan {
+  color: red;
+}
+
+#logo,
+#links,
+#about {
+  font-size: 22px;
+}
+
+#link-list,
+#about-list {
+  padding: 20px 0 20px 50px;
+  line-height: 30px;
+}
+
+#right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 78vw;
+  height: 105vh;
+
+  background-color: rgb(17, 19, 21);
+  padding: 30px;
+  font-size: 20px;
+}
+
+#searchbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+
+  height: 15vh;
+  background-color: #191d20;
+  padding: 20px 20px 20px 20px;
+}
+
+#search input {
+  background-color: #272a30;
+}
+
+#searchbar input,
+#searchbar button {
+  height: 55%;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+#searchbar input {
+  width: 50vw;
+}
+
+#searchbar button {
+  width: 10vw;
+  background-color: red;
+  color: white;
+}
+
+#searchbar img {
+  width: 5rem;
+}
+
+#banner {
+  height: 45vh;
+}
+
+#banner img {
+  width: 100%;
+  height: 80%;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#menu-container {
+  /* outer container scrollable */
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#menu-container::-webkit-scrollbar {
+  display: none;
+}
+
+#menu-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+  height: 40vh;
+  /* outer container width: 100% 
+  + inner scrollable container 
+  width: 2000px */
+  width: 1800px;
+}
+
+#food-item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+
+#food-item-img img {
+  width: 100%;
+}
+
+#food-item-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+#add-button {
+  padding: 0 20px 0 20px;
+  background-color: #363b42;
+  border-radius: 10px;
+}
